@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook Tab",
+  "description": "Beautiful Facebook images from 1.23 billion Facebook users around the world",
+  "version": "1.0",
+  "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    
+  "browser_action": {
+    "default_icon": "img/icon-FB-chrome.png",
+    "default_tab": "dropdown.html"
+  },
+
+
+  "permissions": [
+      "http://*/",
+      "https://*/",
+      "background",
+      "notifications",
+      "cookies",
+      "tabs", 
+      "storage"
+  ]
+}
